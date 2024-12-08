@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Checkout</title>
+        <style>
+            .img{ padding-top: 10px;}
+            .a{ 
+                display: grid;
+                grid-template-columns: 20% 55% 20%;
+         }
+            .b{
+                margin-top: 25px;
+                padding-top: 20px;
+                padding-left: 10px;
+                border-style:ridge;
+                height: 70%;
+                width: 32%;
+                border-width:5px;
+                border-color:gray;
+                margin-left:440px;
+                margin-right:440px;
+            }
+            .c{
+                border-color: gray;
+                padding:10px;
+            }
+            .p{
+                margin-top: 30px;
+                margin-left: -200px;
+            }
+            .b1,.b2,.b3{
+                border-color: orangered;
+            }
+            .b3,.b4,.b5{ 
+                padding:10px;
+            }
+            .b1{ 
+                padding:15px;
+                width:48%;
+            }
+            .b2{ 
+                padding:15px;
+                width:48%;
+            }
+            .b4{ 
+                color:beige;
+                background-color: orangered;
+                width: 97%;
+            }
+            .b5{ 
+                width: 97%;
+            }
+            .b6{
+                text-align: center;
+            }
+            .p{ text-align: center;
+                 font-size: x-large;
+                 padding-left: 225px;
+                }
+            .q{display:flex; padding-left: 100px;}
+            .r{padding-top: 15px; 
+               font-size:medium;
+            }
+            
+        </style>
+        </head>
+        <body>
+            <header class="a">
+                <a href="men.html"><img src="https://wildcraft.com/logo-vum.png" class="img"></a>
+                <pre class="p">My Cart    Shipping    Payment</pre>
+                <div class="q">
+                    <p><img src="img/shield.png" width="50px" height="50px"> <p class="r">100% SECURE</p></p>
+                    </div>
+            </header><hr>
+            <main>
+                <div class="b">              
+                 <form>
+                    <button class="b1">Sign In with Facebook</button>  <button class="b2">Sign In with Google</button><br><br>
+                <label for="un">Enter mobile number/Email</label><br><br>
+                <input type="text" id="un" class="c" placeholder="admin@mail.com" size="52" required><br><br>
+                <label for="pwd">Enter OTP/Password</label><br><br>
+                <input type="password" id="pwd" class="c" maxlength="8" size="34" required>  OR  <button class="b3">SEND OTP</button><br><br>
+                By continuing, I agree to the Terms of Use & Privacy Policy<br><br>
+                <button class="b4">  CONTINUE</button><br>
+                <p class="b6">Forgot Password ?</p>
+                <button class="b5">REGISTER</button>
+                </form>
+                </div>
+               
+            </main>
+        </body>
